@@ -24,3 +24,7 @@ let capitalCity="Kampala"
 let isMarried= true
 const PI= 3.14
 //const wn u don't want it to change
+
+console.log (capitalCity)
+console.log (isMarried)
+

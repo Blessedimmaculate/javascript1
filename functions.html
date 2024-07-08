@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myFunction() {
+            let x = "Hello";
+            let y = document.getElementById("fname").value;
+            let z = "How are you doing"
+            let msg = x + y + z;
+            const output = document.getElementById("msgOutput");
+            output.style.display = "block";
+            output.innerHTML = msg;
+        }
+
+        
+    </script>
+
+</head>
+<body>
+    <section>
+        <h2>sample function</h2>
+        <label>First Name: <input type="text" id="fname"></label>
+        <input type="button" value="display message" onclick="myFunction()">
+        <h1 style="display: none;" id="msgOutput"></h1>
+    </section>
+</body>
+</html>

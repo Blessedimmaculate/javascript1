@@ -22,5 +22,8 @@ console.log(Math.round(PI))
 console.log(Math.cos(60))
 let cosine =Math.cos(60)
 console.log(Math.round(cosine))
+// []//arrays or list
+// {}//object
+// ()//function
 
 
