@@ -4,7 +4,7 @@ let dealerName = "Abakwase Immaculate"
 
 //Numbers
   let maizeWeight = "2000kg"
-  let maizeCost = 2millions
+  let maizeCost = shs2000000
   
   //Boolean
   let standardWeight = 1000 

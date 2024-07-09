@@ -17,21 +17,21 @@ function updateStock(productName, tonnageSold) {
     // Logic to decrease stock by tonnageSold
 }
 
-   Variables and arrays
+   //Variables and arrays
 let productName = 'Rice';
 let stockLevels = [
     { productName: 'Rice', tonnage: 500 },
     { productName: 'Maize', tonnage: 300 }
 ];
 
-  Datatypes
-  let productName = 'Rice'; // string
+  //Datatypes
+  let productName1 = 'Rice'; // string
   let tonnage = 500; // number
   let product = { name: 'Rice', type: 'Grain', price: 5000 }; // object
   let sales = [ /* Array of sale objects */ ]; // array
 
-Objects 
-  let product = {
+//Objects 
+  let product1 = {
     name: 'Rice',
     type: 'Grain',
     price: 5000,
@@ -42,7 +42,7 @@ Objects
     }
 };
 
-Loops
+//Loops
   // Example loop to display stock levels
 for (let i = 0; i < stockLevels.length; i++) {
     console.log(`${stockLevels[i].productName}: ${stockLevels[i].tonnage} kg`);
@@ -55,12 +55,12 @@ sales.forEach(sale => {
 });
 console.log(`Total Sales: ${totalSales} UgX`);
 
-let, const, Variables
-   let productName = 'Rice';
+//let, const, Variables
+   let productName2 = "Rice";
    const taxRate = 0.18;
 
-Numbers
-  let price = 5000;
+//Numbers
+  let price1 = 5000;
   let totalAmount = price * tonnage;
 
   Statements
@@ -76,8 +76,8 @@ for (let i = 0; i < stockLevels.length; i++) {
     console.log(`${stockLevels[i].productName}: ${stockLevels[i].tonnage} kg`);
 }
 
-  Strings
-let productName = 'Rice';
+ // Strings
+let productName3 = 'Rice';
 let buyerName = 'John Doe';
 let location = 'Kampala';
 
@@ -91,7 +91,7 @@ if (isCreditSale && isOverdue) {
 }
 
 Properties
-  let product = {
+  let product2 = {
     name: 'Rice',
     type: 'Grain',
     price: 5000,
@@ -123,9 +123,9 @@ class Product {
 let riceProduct = new Product('Rice', 'Grain', 5000, 1000);
 console.log(riceProduct.calculateTotalValue()); // Outputs: 5000000
 
-  Operations and Arithmetic
+ // Operations and Arithmetic
 let price = 5000;
-let tonnage = 1000;
+let tonnage1 = 1000;
 let totalValue = price * tonnage; // Multiplication operation
 
 let remainingStock = 500;

@@ -23,7 +23,7 @@ greet("Blessed", "Linda");
 //Blessed is an argument to the greet function
 //An argument is the actual value we supply for that parameter
 
-function areaOfCircle(radius) {
+function areaOfCir(radius) {
         let area = Math.PI * radius * radius
    return area; //for saving the value
 }

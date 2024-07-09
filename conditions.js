@@ -90,7 +90,7 @@ else //if the conditions above hv failed (false)run this one.
 
 let dayOfTheWeekByUser = prompt("What is the day today")
 let day = dayOfTheWeekByUser.toLowerCase()
-switch (Day) {
+switch (day) {
   case "Monday":
     console.log("Today is Monday")
     break
@@ -121,3 +121,24 @@ switch (Day) {
   default:
     console.log("NOT A DAY OF THE WEEK")
 }
+
+//ternary operator
+let isRaining = true
+isRaining
+ ? console.log ("Remember to take your rain coat")
+ : console.log ("No need to carry a rain coat")
+
+
+ let newNumber = prompt ("Enter a number");
+ switch (newNumber) {
+  case (newNumber > 0):
+  console.log(`${newNumber} is a positive number`)
+  break;
+
+  case (newNumber < 0 ):
+    console.log(`${newNumber} is a negative number`)
+    break;
+
+    default:
+      console.log("the number is invalid")
+ }
