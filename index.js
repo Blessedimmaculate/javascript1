@@ -15,3 +15,10 @@ console.log(5%2)
 //%gives  you the remainder
 console.log(3**2)
 //**is the power
+
+
+function create () {
+    console.log(biggestHeading)
+    let container = document.querySelector(".container")
+    container.appendChild(biggestHeading)
+}

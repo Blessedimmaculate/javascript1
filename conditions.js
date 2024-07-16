@@ -9,7 +9,8 @@ ternary operator*/
 /*CONDITIONAL OPERATORS
 == Equal to something
 != Not equal to
-> Comparison operator, <
+
+> Comparison operator, <  (true or false)
 >= or equal to
 === strictly equal to
 !== strictly not equal to
@@ -88,8 +89,8 @@ else //if the conditions above hv failed (false)run this one.
 
 
 
-let dayOfTheWeekByUser = prompt("What is the day today")
-let day = dayOfTheWeekByUser.toLowerCase()
+//let dayOfTheWeekByUser = prompt("What is the day today") option for a user to type a no- into the terminal
+let day = "dayOfTheWeekByUser".toLowerCase()
 switch (day) {
   case "Monday":
     console.log("Today is Monday")
@@ -125,20 +126,52 @@ switch (day) {
 //ternary operator
 let isRaining = true
 isRaining
- ? console.log ("Remember to take your rain coat")
- : console.log ("No need to carry a rain coat")
+  ? console.log("Remember to take your rain coat")
+  : console.log("No need to carry a rain coat")
 
 
- let newNumber = prompt ("Enter a number");
- switch (newNumber) {
+let newNumber = prompt("Enter a number");
+switch (newNumber) {
   case (newNumber > 0):
-  console.log(`${newNumber} is a positive number`)
-  break;
+    console.log(`${newNumber} is a positive number`)
+    break;
 
-  case (newNumber < 0 ):
+  case (newNumber < 0):
     console.log(`${newNumber} is a negative number`)
     break;
 
-    default:
-      console.log("the number is invalid")
- }
+  default:
+    console.log("the number is invalid")
+}
+
+
+let GPA = 72//range is a boolean or comparison
+switch (true) {
+  case ( GPA > 85 ):
+    console.log("A")
+    break
+
+  case(GPA > 75 && GPA <= 85):
+    console.log("B")
+    break
+
+    case (GPA > 65 && GPA <= 75):
+      console.log("C")
+      break
+
+      case (GPA > 55 && GPA <= 65):
+      console.log("D")
+      break
+
+      default:
+        console.log("F")
+}
+
+let student = "John Doe"
+console.log (student.toLowerCase())
+
+let student2 = "John Doe"
+console.log (student===student2)
+
+let student3 = "john doe"
+console.log (student===student3)

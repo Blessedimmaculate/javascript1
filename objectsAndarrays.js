@@ -16,9 +16,9 @@ let carMake ="Toyota";//property
 car.start();
 //inbuilt objects
 //Math object
-const PI =Math.PI
-console.log(PI)
-console.log(Math.round(PI))
+const SI =Math.SI
+console.log(SI)
+console.log(Math.round(SI))
 console.log(Math.cos(60))
 let cosine =Math.cos(60)
 console.log(Math.round(cosine))

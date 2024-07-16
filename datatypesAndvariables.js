@@ -57,7 +57,7 @@ console.log(randomNumber);
 let ThirdName = "Immaculate"
 let lastName = "Abakwase"
 let space = " "//click the space button
-let fullName = ThirdNameName + space + lastName
+let fullName = ThirdName + space + lastName
 console.log(fullName);
 
 let paragraph = "Economy: Agriculture is a significant part of Uganda's economy, with coffee being a major export. The country also has growing industries in tourism, telecommunications, and manufacturing."
