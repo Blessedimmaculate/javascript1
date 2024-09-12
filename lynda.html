@@ -6,12 +6,30 @@
     <title>Document</title>
 </head>
 <body>
-    
-     <form action="">
-        <input type="text" placeholder="username">
-        <input type="email" placeholder="email">
-        <input type="password" placeholder="password">
-        <button>Login</button>
+<!-- MTD 2 -->
+    <button onclick="handleClick()">Click Me</button>
+    <script>
+        let myButton = document.getElementById("myButton");
+        myButton.addEventListener("click", handleClick(myButton));
+        // This function will be called when the button is clicked.
+         document.getElementById 
+         function handleClick() {
+             alert("Button clicked!");
+         }
+
+    </script>
+
+
+<br><br>
+     <form id="form1">
+        <label for="username">Name</label><br><br>
+        <input id="userName" type="text" placeholder="username">
+        <label for="email">Email</label><br><br>
+        <input id="email" type="email" placeholder="email">
+        <label for="password">Password</label><br><br>
+        <input id="password" type="email" placeholder="password">
+        <!-- <button id="loginButton">Login</button> -->
+         <button type="submit">Submit</button>
      </form>
 
 
@@ -29,7 +47,7 @@
       
         
         <!-- MTD 2 -->
-        <button onclick="myButton">Click Me</button>
+        <!-- <button onclick="myButton">Click Me</button>
     <script>
         let myButton = document.getElementById("myButton");
         myButton.addEventListener("click", handleClick(myButton));
@@ -38,7 +56,10 @@
          document.getElementById 
          function handleClick() {
              alert("Button clicked!");
-         }
+         } -->
+
+         
+         
 
     </script>
 

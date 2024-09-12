@@ -63,5 +63,5 @@ console.log(fullName);
 let paragraph = "Economy: Agriculture is a significant part of Uganda's economy, with coffee being a major export. The country also has growing industries in tourism, telecommunications, and manufacturing."
 console.log(paragraph);
 
-console.log("Hello Everyone. \nHow are you");
+console.log("Hello Everyone. \How are you");
 //  \n puts it in diff lines
